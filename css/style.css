@@ -1,0 +1,180 @@
+/* &display=swap */
+
+@import "null.css";
+@font-face {
+	font-family: "Snow Bright";
+	src: url("../fonts/SnowBright.woff2") format("woff2"), url("../fonts/SnowBright.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Firstsnow";
+	src: url("../fonts/firstsnow.woff2") format("woff2"), url("../fonts/firstsnow.woff") format("woff");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Let It Snow";
+	src: url("../fonts/LMSLetItSnow.woff2") format("woff2"), url("../fonts/LMSLetItSnow.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Snowy Christmas";
+	src: url("../fonts/SnowyChristmas.woff2") format("woff2"), url("../fonts/SnowyChristmas.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+/* ================================================================ */
+body {
+	font-family: "Snow Bright";
+	font-size: 18px;
+	line-height: 1.6;
+	color: #093372;
+	max-width: 1140px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+
+.logo {
+	width: 100px;
+	margin-left: 500px;
+}
+#title {
+	font-family: "Let It Snow";
+	font-size: 50px;
+	text-align: center;
+	letter-spacing: 25px;
+}
+.header-text {
+	font-size: 30px;
+	text-align: center;
+	text-transform: capitalize;
+	text-shadow: 10px 5px 7px #5190e2;
+	min-height: 150px;
+}
+.menu {
+	margin: 20px 500px 20px 0px;
+	padding: 0 0 0 30px;
+}
+ol > li {
+	font-family: "Snowy Christmas";
+	font-size: 25px;
+	margin-bottom: 5px;
+}
+h2 {
+	font-family: "Firstsnow";
+	font-size: 30px;
+	text-align: center;
+	margin-top: 15px;
+}
+.block-1 {
+	max-width: 500px;
+	margin: 0 auto 20px;
+}
+.text-1 {
+	font-size: 22px;
+	padding: 10px 70px;
+	text-align: center;
+	min-height: 150px;
+}
+.text-2 {
+	max-width: 500px;
+	padding: 10px 15px;
+	color: #511569;
+	text-decoration: underline;
+	min-height: 150px;
+}
+.image-2 {
+	margin: -160px 20px 20px 600px;
+}
+.text-3 {
+	max-width: 300px;
+	padding: 10px;
+	color: #0b92b4;
+	min-height: 150px;
+}
+.text-3_1 {
+	max-width: 300px;
+	margin-top: -270px;
+	margin-left: auto;
+	padding: 10px;
+	color: rgb(99, 15, 82);
+	min-height: 200px;
+}
+.text-3_2 {
+	max-width: 300px;
+	margin: 50px auto 5px;
+	padding: 10px 0px;
+	text-decoration: overline;
+	min-height: 150px;
+}
+.image-3 {
+	margin: -130px 400px 20px 350px;
+}
+#block_4 {
+	text-decoration: line-through;
+}
+.text-4 {
+	max-width: 400px;
+	max-height: 200px;
+	margin-left: auto;
+	padding: 10px;
+	overflow: auto;
+}
+.image-4 {
+	margin: -180px 10px 20px 50px;
+}
+.block-5 {
+	max-width: 500px;
+	margin: 0 auto 20px;
+}
+.text-5 {
+	max-height: 75px;
+	margin-bottom: 20px;
+	overflow: hidden;
+	color: #16c4c4;
+}
+.text-6 {
+	max-width: 400px;
+	min-height: 150px;
+	margin: 10px 10px 10px 50px;
+	overflow: scroll;
+	color: rgb(221, 104, 25);
+}
+.image-6 {
+	margin: -160px 50px 20px 500px;
+}
+.block-7 {
+	max-width: 800px;
+	margin: 0 auto 20px;
+	text-align: justify;
+}
+.text-7 {
+	color: #071f42;
+	min-height: 150px;
+	margin-bottom: 10px;
+	padding: 0px 20px;
+}
+span {
+	color: #e01a42;
+}
+.footer {
+	background-color: #2f73b3;
+}
+.footer-text {
+	text-transform: uppercase;
+	text-align: center;
+}
+.link {
+	display: inline-block;
+	margin-left: 50px;
+}
